@@ -1,0 +1,68 @@
+copyright: © MushroomLabs 2020
+
+docs_dir: src
+markdown_extensions:
+  - admonition
+  - meta
+
+nav:
+  - Tutorials:
+      - Introduction: tutorials/introduction.md
+      - Getting started: tutorials/getting_started.md
+      - Raiden: tutorials/raiden.md
+
+  - HOWTOs:
+      - Installation: howtos/installation.md
+      - Custom authentication: howtos/authentication.md
+      - Select tokens: howto/tokens.md
+      - Deployment: howto/deployment.md
+      - Setup Raiden: howto/raiden.md
+      - Use HD Wallets: howto/hd_wallets.md
+      - Customize Checkout20 Widget: howto/checkout20.md
+      - Troubleshooting: howto/troubleshooting.md
+
+  - Topic Guides:
+      - Architecture: topics/architecture.md
+      - Features: topics/features.md
+      - Use Cases: topics/use_cases.md
+      - Raiden: topics/raiden.md
+      - Accounting: topics/accounting.md
+
+  - Reference:
+      - Authentication: reference/authentication.md
+      - Wallet Engines: reference/wallets.md
+      - API: reference/api.md
+      - CLI: reference/cli.md
+      - Configuration: reference/configuration.md
+
+  - User's manual:
+      - Introduction: manual/introduction.md
+      - Getting started: manual/getting_started.md
+      - Transfer tokens: manual/transfers.md
+      - Use it as a Payment Gateway: manual/payment_gateway.md
+
+  - FAQ: faq.md
+
+plugins:
+  - search
+  - macros:
+      include_dir: snippets
+
+repo_name: mushroomlabs/hub20
+repo_url: https://github.com/mushroomlabs/hub20
+
+site_url: https://docs.hub20.io
+site_name: Hub20
+
+theme:
+  custom_dir: theme
+  name: material
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  features:
+    - navigation.tabs
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo

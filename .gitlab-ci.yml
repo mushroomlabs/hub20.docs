@@ -1,0 +1,17 @@
+stages:
+  - release
+
+pages:
+  stage: release
+  image: python:3.8-buster
+  before_script:
+    - pip install mkdocs mkdocs-material mkdocs-macros-plugin
+
+  script:
+    - mkdocs build
+    - mv site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
