@@ -6,6 +6,7 @@ markdown_extensions:
   - meta
 
 nav:
+  - Home: index.md
   - Tutorials:
       - Introduction: tutorials/introduction.md
       - Getting started: tutorials/getting_started.md
