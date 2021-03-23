@@ -21,7 +21,7 @@ blockchain as well as the integrated Raiden node.
 
 1. [A Quick Look at Hub20](overview.md)
 1. [Creating Ethereum Wallets that will manage the funds for the hub](wallet.md)
-1. [Installing Hub20](installing.md)
+1. [Installation and Deployment Hub20](deployment.md)
 1. [Setup user accounts](user_accounts.md)
 1. [Funding wallets](funding.md)
 1. [Execute Raiden contracts](raiden.md)
