@@ -4,12 +4,19 @@ docs_dir: src
 markdown_extensions:
   - admonition
   - meta
+  - pymdownx.tabbed
+  - pymdownx.superfences
 
 nav:
+  - Home: index.md
   - Tutorials:
-      - Introduction: tutorials/introduction.md
-      - Getting started: tutorials/getting_started.md
-      - Raiden: tutorials/raiden.md
+      - Introduction: tutorials/index.md
+      - A Quick Look at Hub20: tutorials/overview.md
+      - Generate secrets for managed wallets: tutorials/wallet.md
+      - Deploying Hub20: tutorials/deployment.md
+      - Setup user accounts: tutorials/user_accounts.md
+      - Funding wallets: tutorials/funding.md
+      - Execute Raiden contracts: tutorials/raiden.md
 
   - HOWTOs:
       - Installation: howtos/installation.md
@@ -62,6 +69,7 @@ theme:
     code: Ubuntu Mono
   features:
     - navigation.tabs
+    - toc.integrate
   language: en
   palette:
     primary: indigo

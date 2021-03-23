@@ -1,0 +1,24 @@
+- hosts: redis_servers
+  gather_facts: true
+  gather_subset: network
+  roles:
+    - role: geerlingguy.redis
+
+- hosts: database_servers
+  gather_facts: true
+  gather_subset: network
+  roles:
+    - role: anxs.postgresql
+
+- hosts: hub20
+  tasks:
+    - name: install git
+      become: true
+      apt:
+        state: present
+        name:
+          - git
+  roles:
+    - role: geerlinguy.nginx
+    - role: geerlinguy.certbot
+    - role: lullis.hub20
