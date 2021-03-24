@@ -5,8 +5,6 @@ hide:
 
 title: Hub20 Documentation
 ---
-{% include "disclaimers/beta.md" %}
-
 Hub20 is an open source, self-hosted web application that provides a
 wrapper for Ethereum and [Raiden Network](https://raiden.network)
 client nodes. It hides all of the complexity from end-users so that
@@ -21,15 +19,3 @@ In practice, one can think of each instance of Hub20 of a single
 accounts and token balances, while the person running the deployment
 (hub operator or hub owner) is the one with actual access to the bank
 vault and funds.
-
-
-## Is Hub20 a Custodial Wallet?
-
-This is a question that those more familiar with how blockchain and
-cryptocurrency systems will certainly make. The short answer would be
-*"No. Operators control the keys and can do whatever they want"*.
-
-The correct answer is a bit more complex, because the operators can
-also add accounts for other users and these users would not have
-control over the keys. So let's take some time to explain what is
-Hub20's value proposition.
