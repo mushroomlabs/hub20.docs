@@ -3,7 +3,9 @@ copyright: © MushroomLabs 2020
 docs_dir: src
 markdown_extensions:
   - admonition
+  - attr_list
   - meta
+  - pymdownx.highlight
   - pymdownx.tabbed
   - pymdownx.superfences
 
