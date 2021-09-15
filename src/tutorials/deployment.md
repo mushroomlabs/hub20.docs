@@ -33,6 +33,9 @@ distributed web. If you have a computer running dappnode at home, follow these s
    to generate ethereum wallet, as described in the [previous section
    of this tutorial](wallet.md). You will also will have to choose
    what network you will be using.
+1. The setup screen will also prompt for the username and password to
+   use for the main account (i.e, the **Operator**). Use a **strong**
+   password.
 1. If everything is working correctly, you should be able to see some
    messages on "logs" tab from your package.
 

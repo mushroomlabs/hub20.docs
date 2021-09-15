@@ -38,13 +38,14 @@ nav:
       - Accounting: topics/accounting.md
 
   - Reference:
+      - reference/index.md
       - Authentication: reference/authentication.md
       - Wallet Engines: reference/wallets.md
       - API: reference/api.md
       - CLI: reference/cli.md
       - Configuration: reference/configuration.md
 
-  - User's manual:
+  - Users manual:
       - Introduction: manual/introduction.md
       - Getting started: manual/getting_started.md
       - Transfer tokens: manual/transfers.md
@@ -71,6 +72,7 @@ theme:
     code: Ubuntu Mono
   features:
     - navigation.tabs
+    - navigation.indexes
     - toc.integrate
   language: en
   palette:
