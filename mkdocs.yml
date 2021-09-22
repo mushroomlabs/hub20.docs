@@ -19,18 +19,10 @@ nav:
       - Setup user accounts: tutorials/user_accounts.md
       - Funding wallets: tutorials/funding.md
       - Execute Raiden contracts: tutorials/raiden.md
-
-  - HOWTOs:
-      - Installation: howtos/installation.md
-      - Custom authentication: howtos/authentication.md
-      - Select tokens: howto/tokens.md
-      - Deployment: howto/deployment.md
-      - Setup Raiden: howto/raiden.md
-      - Use HD Wallets: howto/hd_wallets.md
-      - Customize Checkout20 Widget: howto/checkout20.md
-      - Troubleshooting: howto/troubleshooting.md
+      - Receive Payments: tutorials/payment_gateway.md
 
   - Topic Guides:
+      - topics/introduction.md
       - Architecture: topics/architecture.md
       - Features: topics/features.md
       - Use Cases: topics/use_cases.md
