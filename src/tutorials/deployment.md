@@ -43,11 +43,20 @@ In the specific case of the DAppNode, you will be connecting to the
 Hub20 through the VPN, and it should be available at hub20.dappnode.
 
 
+### Docker
+
+We provide [docker
+iamges](https://hub.docker.com/r/mushroomlabs/hub20) if you are
+interested in running the application. A recommended way to run the
+application is to use docker-compose. You can find the [code
+repository](https://gitlab.com/mushroomlabs/hub20/deployment) where we
+provide code for different deployment methods.
+
 ### Ansible
 
 [Ansible](https://www.ansible.com/) is a tool for automated
 configuration management and application deployment. We provide a
-[Hub20 Ansible Role](https://galaxy.ansible.com/lullis/hub20) which
+[Hub20 Ansible Role](https://galaxy.ansible.com/mushroomlabs/hub20) which
 can automate the install of the Hub20 on any Debian-based Linux
 distro.
 
