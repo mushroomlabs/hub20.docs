@@ -2,35 +2,6 @@
 title: User Accounts
 ---
 
-### Understanding the different user profiles
-
-Now that your instance is up and running, you need to setup accounts
-for your users. It is important to note that Hub20 deals with two
-types of user personas:
-
- - Hub **Users** are just accessing and interacting with the Hub as if
-   it is a standard web application. They have access only about their
-   own profile, see the balances of different tokens that are
-   available to them, setup payment gateway stores and make/receive
-   token transfers. No specific knowledge about how ethereum or
-   different layer-2 methods work, don't necessarily know about the
-   underlying costs of making transfers and might be even that they
-   never used web3 dapp browsers before.
-
- - Hub **Operators** are the ones responsible in managing the instance
-   and can "check under the hood" of all the underlying machinery. A
-   hub operator will have full access to system's database, can see
-   information about other users, can make smart contracts calls
-   *directly* and even change the records about value bookkeeping. The
-   **Operator** is expected to know in deep detail about how ethereum
-   works, should be able to understand how ethereum works and how the
-   different layer-2 integrations work.
-
-Needless to say, **Users** are assumed to trust the **Operator** and
-be fully aware that they do not have direct control over any funds
-deposited into the hub.
-
-
 ### Creating the Operator Account
 
 You can only create an operator account if you have direct access to

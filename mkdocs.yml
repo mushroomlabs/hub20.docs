@@ -19,18 +19,10 @@ nav:
       - Setup user accounts: tutorials/user_accounts.md
       - Funding wallets: tutorials/funding.md
       - Execute Raiden contracts: tutorials/raiden.md
-
-  - HOWTOs:
-      - Installation: howtos/installation.md
-      - Custom authentication: howtos/authentication.md
-      - Select tokens: howto/tokens.md
-      - Deployment: howto/deployment.md
-      - Setup Raiden: howto/raiden.md
-      - Use HD Wallets: howto/hd_wallets.md
-      - Customize Checkout20 Widget: howto/checkout20.md
-      - Troubleshooting: howto/troubleshooting.md
+      - Receive Payments: tutorials/payment_gateway.md
 
   - Topic Guides:
+      - topics/introduction.md
       - Architecture: topics/architecture.md
       - Features: topics/features.md
       - Use Cases: topics/use_cases.md
@@ -45,16 +37,33 @@ nav:
       - CLI: reference/cli.md
       - Configuration: reference/configuration.md
 
-  - Users manual:
-      - Introduction: manual/introduction.md
-      - Getting started: manual/getting_started.md
-      - Transfer tokens: manual/transfers.md
-      - Use it as a Payment Gateway: manual/payment_gateway.md
+  - HOWTOs:
+      - Installation: howtos/installation.md
+      - Custom authentication: howtos/authentication.md
+      - Select tokens: howto/tokens.md
+      - Deployment: howto/deployment.md
+      - Setup Raiden: howto/raiden.md
+      - Use HD Wallets: howto/hd_wallets.md
+      - Customize Checkout20 Widget: howto/checkout20.md
+      - Troubleshooting: howto/troubleshooting.md
+
+  - User manual:
+      - manual/index.md
+      - Accounts:
+          - manual/accounts/register.md
+          - manual/accounts/profile.md
+      - Wallet:
+          - View Balances: manual/wallet/view.md
+          - Receive Deposits: manual/wallet/add_funds.md
+          - Send/Withdraw Funds: manual/wallet/withdraw.md
+      - History: manual/history.md
+      - Create Merchant Store: manual/merchant_stores.md
 
   - FAQ: faq.md
 
 plugins:
   - search
+  - render_swagger
   - macros:
       include_dir: snippets
 
