@@ -1,8 +1,5 @@
 ---
-title: Developers Manual and Technical Reference
-hide:
-    - toc
-    - navigation
+title: Introduction
 ---
 
 This section contains technical reference and information that might
@@ -18,8 +15,8 @@ so if these might be also of interest.
 For Hub20-specific information, take a look at the links below:
 
 
-  - [Authentication](reference/authentication.md)
-  - [Wallet Engines](reference/wallets.md)
-  - [API](reference/api.md)
-  - [CLI](reference/cli.md)
-  - [Configuration](reference/configuration.md)
+  - [Authentication](./authentication.md)
+  - [Wallet Engines](./wallets.md)
+  - [API](./api.md)
+  - [CLI](./cli.md)
+  - [Configuration](./configuration.md)
