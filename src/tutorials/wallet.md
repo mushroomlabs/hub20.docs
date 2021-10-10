@@ -51,8 +51,8 @@ An ethereum private key can be represented by a 32-characters hex
 string. One way to generate such a secret on Unix systems
 (MacOS/Linux):
 
-```(bash)
-`echo "0x`openssl rand -hex 32`"
+```bash
+echo "0x`openssl rand -hex 32`"
 ```
 
 Save the generated string somewhere safe like a password manager and
