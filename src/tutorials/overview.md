@@ -70,7 +70,6 @@ communicates with other services, mainly:
    operations with it.
 
 
-
 Before starting to look how to run these parts of the service
 together, we need to create the ethereum accounts that will be used by
 the server instance for any blockchain/raiden operation.
