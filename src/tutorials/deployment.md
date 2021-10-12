@@ -2,8 +2,6 @@
 title: Installation and Deployment
 ---
 
-## Choosing a Deployment Method
-
 There are a number of different methods to setup a Hub20 instance, but
 they all start with the same codebase and they all will require the
 same set of services. We will list them from easiest (most automated)

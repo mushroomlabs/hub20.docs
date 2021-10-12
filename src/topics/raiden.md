@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 The Raiden Network is an off-chain scaling solution for performing
 ERC20-compliant token transfers on the Ethereum blockchain. It is
 Ethereum's version of Bitcoin's Lightning Network, enabling

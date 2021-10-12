@@ -1,5 +1,7 @@
 ---
 title: A Quick Look at Hub20
+hide:
+  - toc
 ---
 
 Hub20 is a web application that aims to work as a "bridge" between the
