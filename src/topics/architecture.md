@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 Most of the existing services in the Ethereum ecosystem (and
 cryptocurrency in general) fall in two opposite camps:
 

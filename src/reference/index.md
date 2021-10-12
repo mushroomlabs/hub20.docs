@@ -1,5 +1,7 @@
 ---
 title: Introduction
+hide:
+  - toc
 ---
 
 # Reference Pages
