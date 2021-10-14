@@ -12,7 +12,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tutorials:
-      - Introduction: tutorials/index.md
+      - tutorials/index.md
       - A Quick Look at Hub20: tutorials/overview.md
       - Generate secrets for managed wallets: tutorials/wallet.md
       - Deploying Hub20: tutorials/deployment.md
@@ -22,8 +22,7 @@ nav:
       - Receive Payments: tutorials/payment_gateway.md
 
   - Topic Guides:
-      - topics/introduction.md
-      - Architecture: topics/architecture.md
+      - topics/index.md
       - Features: topics/features.md
       - Use Cases: topics/use_cases.md
       - Raiden: topics/raiden.md
@@ -38,7 +37,7 @@ nav:
       - CLI: reference/cli.md
 
   - HOWTOs:
-      - Installation: howtos/installation.md
+      - howtos/index.md
       - Custom authentication: howtos/authentication.md
       - Select tokens: howto/tokens.md
       - Deployment: howto/deployment.md
@@ -74,7 +73,7 @@ site_url: https://docs.hub20.io
 site_name: Hub20
 
 theme:
-  custom_dir: theme
+  custom_dir: overrides
   name: material
   font:
     text: Ubuntu

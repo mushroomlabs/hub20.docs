@@ -1,6 +1,9 @@
+---
+title: Introduction
+---
 The pages in this section of the documentation are aimed mostly at
 those who are setting up and/or operating a Hub20 instance. They
-assume *intense* familiarity with how Ethereum works as well as any
+assume *deep* familiarity with how Ethereum works as well as any
 interaction with other systems (e.g, Raiden).
 
 This section is meant to take you step-by-step though some key aspects
