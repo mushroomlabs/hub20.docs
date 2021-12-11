@@ -38,6 +38,8 @@ nav:
 
   - HOWTOs:
       - howtos/index.md
+      - Create Admin Account: howtos/create_admin_account.md
+      - Manage Liquidity on Raiden Nodes : howtos/raiden_liquidity.md
       - Custom authentication: howtos/authentication.md
       - Select tokens: howto/tokens.md
       - Deployment: howto/deployment.md
