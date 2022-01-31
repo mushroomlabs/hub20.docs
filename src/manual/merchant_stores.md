@@ -2,29 +2,31 @@ Once you have an account at a Hub20 server, you can create an
 unlimited number of stores as a different integration point to receive
 payments from your customers.
 
-To *create a store*, make sure you are logged into your account and
-find the "Stores" section in the left menu.
+!!! tip
+    Before setting up a store, you should take care of defining at
+    least one [token list](./token_management.md).
 
-![Store Dashboard](/assets/images/frontend/store_dashboard.png)
+To *create a store*, make sure you are logged into your account and
+find the "Stores" section in the left menu (represented by the shopping cart)
+
+![Store Dashboard](/assets/images/manual/store_list.png)
 
 ---
 
+Select the **Add New** button. You will see a form with the details you need to configure.
 
-Select the **Add New** button.
-
-![Create New Store](/assets/images/frontend/store_form.png)
+![Create New Store](/assets/images/manual/store_edit.png)
 
 You should provide a name and a URL mostly for identification
-purposes. The most important part of these options is to indicate
-which tokens are you willing to accept payments. The list of tokens
-available for selection depends on the configuration from the Hub
-Operator. If you wish to accept a token that is not on the list,
-contact the operator of the instance you use and see if they can add
-it for you.
+purposes. You must provide the *token list* containing the tokens that
+you want to accept for payment.
+
+You also can (optionally) define a *webhook url*, which will
+be an endpoint where Hub20 will send POST requests with all payment
+events that are received.  The most important part of these options is to indicate which
+tokens you are seeking to accept as payment, and you
 
 ---
-
-![Store Edit](/assets/images/frontend/store_edit.png)
 
 The created store will be listed now on the dashboard, and you will
 see its *Store Identifier*. If you click the **Edit** button, you will
