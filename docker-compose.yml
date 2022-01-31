@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mkdocs:
+    image: "hub20_docs:${TAG-latest}"
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - "${HUB20_DOCS_PROJECT_ROOT:-./}:/docs"

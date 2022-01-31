@@ -81,6 +81,11 @@ Port used to connect to server. *Default: `6379`*
 ### `HUB20_CACHE_BACKEND`
 ### `HUB20_CACHE_LOCATION`
 ### `HUB20_RAIDEN_SERVERS`
+
+Comma-separated list of urls from raiden nodes you want to connect.
+
+Default: empty list
+
 ### `HUB20_EMAIL_MAILER_ADDRESS`
 ### `HUB20_EMAIL_BACKEND`
 ### `HUB20_EMAIL_HOST`
@@ -91,35 +96,12 @@ Port used to connect to server. *Default: `6379`*
 ### `HUB20_SITE_DOMAIN`
 ### `HUB20_STATIC_ROOT`
 ### `HUB20_ADMIN_USERNAME`
-### `WEB3_PROVIDER_URI`
 ### `HUB20_ETHEREUM_ACCOUNT_MODEL`
 
 Django model name (`app_name.model_name`)of the [Ethereum Account](./wallets.md)
 that will be used.
 
 *Default: `ethereum_money.KeystoreAccount`*
-
-### `HUB20_BLOCKCHAIN_NETWORK_ID`
-
-Chain Identifier, used to know if connecting to mainnet or any of the test networks.
-
-*Default: `5` (Görli network) if HUB20_DEBUG is set, `1` (mainnet) if not debug mode.
-
- -
-### `HUB20_BLOCKCHAIN_STARTING_BLOCK`
-
-Lowest block that will be scanned transactions and events by the blockchain handling functions.
-
-*Default: 0*
-
-
-### `HUB20_TRACKED_TOKENS`
-
-Comma-separated list of tokens that you want the hub to track for
-events. Use `0x0000000000000000000000000000000000000000` to indicate
-ETH.
-
-*Default: not set*
 
 ### `HUB20_ETHEREUM_HD_WALLET_MNEMONIC`
 

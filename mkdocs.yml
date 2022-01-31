@@ -16,6 +16,7 @@ nav:
       - A Quick Look at Hub20: tutorials/overview.md
       - Generate secrets for managed wallets: tutorials/wallet.md
       - Deploying Hub20: tutorials/deployment.md
+      - Deploying the admin site: tutorials/deployment.md
       - Setup user accounts: tutorials/user_accounts.md
       - Funding wallets: tutorials/funding.md
       - Execute Raiden contracts: tutorials/raiden.md
@@ -23,9 +24,11 @@ nav:
 
   - Topic Guides:
       - topics/index.md
-      - Features: topics/features.md
-      - Use Cases: topics/use_cases.md
+      - Blockchains: topics/blockchains.md
+      - Wallets: topics/wallets.md
+      - Tokens and Token Lists: topics/tokens.md
       - Raiden: topics/raiden.md
+      - Accepting Payments: topics/payment_gateway.md
       - Accounting: topics/accounting.md
 
   - Reference:
@@ -59,6 +62,7 @@ nav:
           - Receive Deposits: manual/wallet/add_funds.md
           - Send/Withdraw Funds: manual/wallet/withdraw.md
       - History: manual/history.md
+      - Portfolio Management: manual/token_management.md
       - Create Merchant Store: manual/merchant_stores.md
 
   - FAQ: faq.md
